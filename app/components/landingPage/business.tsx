@@ -5,7 +5,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 export default function Business() {
     return (
-        <Box width="100%" height={{ base: "570px", md: "540px", lg: "550px"}} bgImage={`url(${business.src})`} bgSize="cover" bgPosition="center" position="relative">
+        <Box width="100%" height={{ base: "570px", md: "540px", lg: "550px"}} bgImage={`url(${business.src})`} bgSize="cover" bgPosition={{ base: "center left", md: "center"}} position="relative">
 
             <Box width="100%" position="absolute" height="100%" left="0" top="0" textAlign={"center"} zIndex={4}  py={{base: 12, md: 16}} px={{ base: 6, md: 32, lg: 16, xl: 40 }}>
                 <Box width={{base: "100%", md:"550px"}} mx="auto">
