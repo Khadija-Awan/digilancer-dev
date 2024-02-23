@@ -3,6 +3,7 @@ import FooterLogoSection from "./logoSection";
 import FooterLinksSection from "./linksSection";
 import { footerLegalLinks, footerServicesLinks } from "@/utils/footer-utils";
 import FooterContactSection from "./contactSection";
+import Copyright from "./copyright";
 
 export default function Footer() {
   return (
@@ -24,6 +25,8 @@ export default function Footer() {
         <FooterContactSection/>
         </Box>
       </SimpleGrid>
+
+      <Copyright/>
     </Box>
   );
 }
