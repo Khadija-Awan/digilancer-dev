@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Box width="100%">
     <Hero/>
-    <Partners/>
+    {/* <Partners/> */}
     <ContentSection/>
     <Central/>
     <Business/>

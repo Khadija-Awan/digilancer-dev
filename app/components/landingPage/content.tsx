@@ -21,7 +21,7 @@ export default function ContentSection() {
             </Box>
 
             <Box width="100%">
-                <Box width={{ base: "270px", md: "440px", lg:"400px", xl: "510px"}} mx={{base:"auto", lg: 0}} ml={{lg:"auto"}} mr={{xl: 12}} height={{base: "229px", md: "370px", lg:"340px", xl: "440px"}} bgImage={`url(${contentImage.src})`} bgSize="cover" bgPosition="center" mb={{ base: 10, lg: 0 }}></Box>
+                <Box width={{ base: "270px", md: "440px", lg:"370px", xl: "480px"}} mx={{base:"auto", lg: 0}} ml={{lg:"auto"}} mr={{xl: 12}} height={{base: "229px", md: "370px", lg:"310px", xl: "410px"}} bgImage={`url(${contentImage.src})`} bgSize="cover" bgPosition="center" mb={{ base: 10, lg: 0 }}></Box>
             </Box>
         </Flex>
     );
