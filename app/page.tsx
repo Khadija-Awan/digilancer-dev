@@ -6,11 +6,13 @@ import Faqs from "./components/landingPage/faqs/index";
 import ContentSection from "./components/landingPage/content";
 import Services from "./components/landingPage/services";
 import Central from "./components/landingPage/central";
+import Partners from "./components/landingPage/partners";
 
 export default function Home() {
   return (
     <Box width="100%">
     <Hero/>
+    <Partners/>
     <ContentSection/>
     <Central/>
     <Business/>
