@@ -1,13 +1,13 @@
 "use client";
 // import type { Metadata } from "next";
 import Head from 'next/head';
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import { ChakraProvider } from "@chakra-ui/react";
 import Footer from "./components/landingPage/footer/index";
 import Header from "./components/landingPage/header/index";
 import { useRef, useState, useEffect } from 'react';
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 // export const metadata: Metadata = {
 //   title: "Digilancer",

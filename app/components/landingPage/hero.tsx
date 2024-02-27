@@ -21,8 +21,8 @@ export default function Hero() {
             </Flex> 
             
             <Flex textAlign={"center"} justifyContent={"center"} mt={10}>
-                <Button as={NextLink} href="https://reprosify.com/" bg="purple" color="white" mr={{base:"14px", md:"25px"}} _hover={{ bg: "green"}} fontSize={{base: "14px", md: "18px"}} textTransform={"uppercase"} height={{ base: "45px", md:"50px"}} width={{base: "94%", md: "250px"}}>Purchase Now</Button>
-                <Button as={NextLink} href="https://reprosify.com/" bg="brown" color="white" _hover={{ bg: "green"}} fontSize={{base: "14px", md: "18px"}} textTransform={"uppercase"} height={{ base: "45px", md:"50px"}} width={{base: "94%", md: "250px"}}>Read More</Button>
+                <Button as={NextLink} href="https://reprosify.com/" bg="purple" color="white" mr={{base:"14px", md:"25px"}} _hover={{ bg: "green"}} fontSize={{base: "14px", md: "18px"}} textTransform={"uppercase"} height={{ base: "45px", md:"50px"}}  borderRadius={"50px"} width={{base: "94%", md: "250px"}}>Purchase Now</Button>
+                <Button as={NextLink} href="https://reprosify.com/"  borderRadius={"50px"} bg="brown" color="white" _hover={{ bg: "green"}} fontSize={{base: "14px", md: "18px"}} textTransform={"uppercase"} height={{ base: "45px", md:"50px"}} width={{base: "94%", md: "250px"}}>Read More</Button>
             </Flex>
         </Stack>
 
