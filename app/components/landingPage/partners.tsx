@@ -1,10 +1,7 @@
 "use client";
-import { Poppins} from "next/font/google";
 import { partnerLinks } from "@/utils/partners-utils";
-import { Box, Text, SimpleGrid, HStack } from "@chakra-ui/react";
+import { Box, Text, SimpleGrid } from "@chakra-ui/react";
 import { useState } from "react";
-
-const poppinsBold = Poppins({ subsets: ["latin"], weight: "600" });
 
 export default function Partners() {
 
@@ -15,7 +12,7 @@ export default function Partners() {
     return (
         <Box width="100%" pr={{xl: "2.5%"}} mt={{base: 16, md: 10, lg: 16, xl: 0}}>
             <Box mx="auto" mt="-60px" width={{ base: "94%", md: "90%", lg: "92%", xl: "80%" }} bg="white" borderRadius="50px" px={4} py={4}>
-                <Text mb={{base: 8, md: 12}} color="green" fontSize={{ base: "24px", md: "30px" }} textAlign={"center"} letterSpacing={"0.5px"} className={poppinsBold.className}>Connecting You With Trusted Brands</Text>
+                <Text mb={{base: 8, md: 12}} color="green" fontSize={{ base: "24px", md: "30px" }} textAlign={"center"} fontWeight={"semibold"}>Connecting You With Trusted Brands</Text>
 
                 <Box mx="auto" width={{ base: "90%", md: "93%" }} height="130px" overflow="hidden" position="relative"
                     onMouseEnter={() => setIsPaused(true)}

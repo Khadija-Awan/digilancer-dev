@@ -1,10 +1,7 @@
 import { Box, Text, Stack, Flex, Button } from "@chakra-ui/react";
 import { background } from "../../../public/hero";
-import { Poppins} from "next/font/google";
 import NextLink from 'next/link'
 import Partners from "./partners";
-
-const poppinsMinor = Poppins({ subsets: ["latin"], weight: "400" });
 
 export default function Hero() {
   return (
@@ -17,7 +14,7 @@ export default function Hero() {
             <Text textAlign={"center"} fontFamily={"Times New Roman"} fontWeight="500" fontSize={{base: "40px", md: "72px", lg: "64px", xl:"75px"}} lineHeight={1.2} color="white">Hello folks, we are Transcend Studio.</Text>
             <Flex direction={{base:"column", lg:"row"}} mt={3}>
             <Box width={{base: "85px", md:"450px", lg: "85px"}} height="1.5px" mt={{base: 0, lg:"26px"}} mb={{base: "25px", lg:0}} ml={{base: "auto", lg:0}} mr={{base: "auto", lg: "15px"}} bg="pink.500"></Box>
-            <Text  textAlign={{ base: "center", lg:"justify"}} letterSpacing={"0.8px"} className={poppinsMinor.className} fontSize={{base: "18px", md: "24px"}} color="white">We create stunning digital experiences that will help your business stand out.</Text>
+            <Text  textAlign={{ base: "center", lg:"justify"}} fontSize={{base: "20px", md: "28px"}} color="white">We create stunning digital experiences that will help your business stand out.</Text>
             </Flex> 
             
             <Flex textAlign={"center"} justifyContent={"center"} mt={10}>

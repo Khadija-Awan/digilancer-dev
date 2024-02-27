@@ -1,4 +1,4 @@
-import { Box, Flex, SimpleGrid } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import CentralModules from "./modules";
 import { centralLeftLinks, centralRightLinks } from "@/utils/central-utils";
 import { central } from "@/public/central//index";
